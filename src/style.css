@@ -1,0 +1,143 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.app-footer {
+    border-top: 3px solid #1b1a1a;
+}
+
+.navbar {
+    border-bottom: 3px solid #1b1a1a;
+    align-items: center;
+}
+
+.navbar-nav a,
+.navbar-nav .nav-item.dropdown a {
+    color: #0d6efd;
+}
+
+.dropdown-item:active {
+    background-color: #e9ecef;
+}
+
+.navbar,
+.app-footer,
+.footer-content {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.img-profile {
+    max-width: 400px;
+}
+
+.img-logo {
+    max-height: 50px;
+    width: auto;
+}
+
+.vanilla-form {
+    max-width: 600px;
+}
+
+input,
+textarea {
+    border-radius: 8px;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    font-size: .8rem;
+}
+
+.gameDropdown.active .dropdown-menu {
+    display: block;
+    text-align: center;
+    z-index: 1000;
+    background-color: #fff;
+    transform: translateX(-50%);
+    min-width: 15rem;
+}
+
+.gameDropdown {
+    position: relative;
+}
+
+.gameDropdown>a::after {
+    content: " ▼";
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.footer-content {
+    margin: 0 .5rem;
+    list-style: none;
+    gap: 1rem;
+}
+
+.app-footer {
+    margin-top: 1rem;
+    padding: .5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Quote typography and spacing */
+.quote-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.quote-content blockquote {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.quote-content cite {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: #999;
+    text-transform: uppercase;
+}

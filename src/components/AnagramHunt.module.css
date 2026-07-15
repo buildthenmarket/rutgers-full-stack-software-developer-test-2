@@ -1,0 +1,94 @@
+/* AnagramHunt.module.css */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.gameInterface {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.gameInfo {
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+}
+
+.gameInfo div {
+  margin: 0.5rem 0;
+}
+
+.input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border: 2px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 1rem auto;
+  display: block;
+  font-family: monospace;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.guessedList {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guessedList h3 {
+  margin-top: 0;
+}
+
+.guessedList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guessedList li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.score, .timer {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin: 0.25rem;
+}
+
+.gameOver {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  margin-top: 2rem;
+}
+
+.gameOver h2 {
+  margin-top: 0;
+}
+
+.gameOver .score {
+  font-size: 2rem;
+  color: #198754;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}

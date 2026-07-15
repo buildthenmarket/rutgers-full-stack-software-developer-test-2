@@ -1,0 +1,32 @@
+{
+  "name": "play2learn-react-spa",
+  "version": "0.0.0",
+  "description": "react test",
+  "main": "Main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "rutgers",
+    "coding",
+    "bootcamp"
+  ],
+  "author": "Abhi Ray",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.7",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.4"
+  }
+}

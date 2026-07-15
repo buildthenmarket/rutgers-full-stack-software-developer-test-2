@@ -1,0 +1,15 @@
+# Dependencies
+**/node_modules
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE/Editor folders
+.vscode/
+.idea/
+.DS_Store
